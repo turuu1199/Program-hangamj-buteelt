@@ -1,0 +1,25 @@
+com.sict
+artifact spring-boot-mvc
+jar
+
+
+dependiecies:
+
+spring web
+thymeleaf
+
+
+class:
+StudentConroller -getMapping @Controller
+Student -get -set
+StudentRepository - hashmap 
+StudentService @Service @Autowired
+	private StudenRepostory studentRepostory;
+	public Collection <Student> getStudents(){
+	}
+
+templates:
+home
+add-form 
+about
+
