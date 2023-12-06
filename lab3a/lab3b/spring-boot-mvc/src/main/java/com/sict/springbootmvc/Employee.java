@@ -6,6 +6,14 @@ public class Employee {
 	private int id;
 	private String email;
 	
+	public Employee (int id, String fname, String lname, String email) {
+		
+		this.id = id;
+		this.lname = lname;
+		this.fname = fname;
+		this.email = email;
+	}
+	
 	public String getFname() {
 		return fname;
 	}

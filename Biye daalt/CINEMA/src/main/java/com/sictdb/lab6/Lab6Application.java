@@ -1,12 +1,12 @@
-package com.sict.springbootmvc;
+package com.sictdb.lab6;
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBootMvcApplication {
+public class Lab6Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootMvcApplication.class, args);
+		SpringApplication.run(Lab6Application.class, args);
 	}
-
 }

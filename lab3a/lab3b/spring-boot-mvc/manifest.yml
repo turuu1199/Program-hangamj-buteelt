@@ -1,0 +1,9 @@
+---
+applications:
+- name: paastaa007
+  memory: 1024M
+  host: paastaa007
+  domain: paastasict.kr
+  buildpack: java_buildpack
+  path: target/spring-boot-mvc-0.0.1-SNAPSHOT.jar
+
